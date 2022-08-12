@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/convert.h
+iostream
+-
+string
+-
+
+/home/ghj/DL/C++/cplus/2基本内置类型/智能指针/src/main.cpp
+iostream
+-
+memory
+-
+convert.h
+/home/ghj/DL/C++/cplus/2基本内置类型/智能指针/src/convert.h
+

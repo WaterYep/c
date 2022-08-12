@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/convert.h
+iostream
+-
+string
+-
+memory
+-
+
+/home/ghj/DL/C++/cplus/智能指针/weak_ptr/src/convert.cpp
+iostream
+-
+string
+-
+vector
+-
+convert.h
+/home/ghj/DL/C++/cplus/智能指针/weak_ptr/src/convert.h
+
+/home/ghj/DL/C++/cplus/智能指针/weak_ptr/src/main.cpp
+iostream
+-
+memory
+-
+convert.h
+/home/ghj/DL/C++/cplus/智能指针/weak_ptr/src/convert.h
+

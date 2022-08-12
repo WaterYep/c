@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ghj/DL/C++/c'
+make: Leaving directory '/home/ghj/DL/C++/c'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
